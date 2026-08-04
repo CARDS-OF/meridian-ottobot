@@ -18,7 +18,10 @@
         "title": "Etrata, the Silencer",
         "artist": "Bastien L. Deharme",
         "frame": "gold multicolor",
-        "colors_observed": ["blue", "black"],
+        "colors_observed": [
+          "blue",
+          "black"
+        ],
         "annotation": "/MERIDIAN/ /OTTOBOT/"
       },
       "notes": "Magic-card IDs use 🪄 plus set code and collector number as the current compact identity key. This card is MERIDIAN-OTTOBOT's own name/persona card, not a spawned child card. Its sticky fully obscures the original title and partly impedes the art box.",
@@ -71,6 +74,27 @@
       "notes": "Project role card for MERIDIAN-OTTOBOT in PFM/DashBOrg.",
       "provenance": [
         "nine-up source photo 2026-07-19"
+      ]
+    },
+    {
+      "deck_index": 5,
+      "card_id": "🅰️10♦️",
+      "role": "associated-gestalt-card",
+      "relation": "appears_with",
+      "status": "canonical-deck-id-confirmed",
+      "deck": "Avengers playing card deck",
+      "metadata": {
+        "deck_emoji": "🅰️",
+        "rank": "10",
+        "suit": "♦️",
+        "annotation": "/AS/DarienSirius/",
+        "associated_identity": "DarienSirius",
+        "orientation": "reverse in 2026-08-04 15.17.23 provenance photo"
+      },
+      "notes": "User confirmed 🅰️ as the Avengers deck emoji id on 2026-08-04. This card appears in the Rancor Monster of Anscombe of Meridian stack photo as 🅰️10♦️/AS/DarienSirius; it is contextual provenance, not a spawned child card of MERIDIAN-OTTOBOT.",
+      "provenance": [
+        "human confirmation 2026-08-04",
+        "human annotation photo 2026-08-04 15.17.23"
       ]
     }
   ]
