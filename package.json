@@ -1,0 +1,9 @@
+{
+  "name": "@cards-of/meridian-ottobot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check-json.mjs"
+  }
+}
