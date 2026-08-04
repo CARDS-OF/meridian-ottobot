@@ -51,6 +51,19 @@
       "provenance": [
         "human annotation photo 2026-08-04 13.54.09"
       ]
+    },
+    {
+      "deal_index": 5,
+      "card_id": "🔱6♦️",
+      "entity": "Rancor Monster of Anscombe of Meridian",
+      "session_id": "019f8db3-f1a1-7463-987d-7d6b2dd140ef",
+      "agent_spawn_index": 5,
+      "status": "top-level-sidecar-project-role-card-fully-inscribed",
+      "notes": "Six of diamonds project-role card for the Rancor sidecar, now fully inscribed with ancestry and birth session. Visible inscription includes /AS/RANCOR_MONSTER_OF/ /ANSCOMBE_OF_MERIDIAN/ and the Rancor birth session id 019f8db3-f1a1-7463-987d-7d6b2dd140ef. User correction: this six of diamonds is shown in reverse orientation in the 2026-08-04 15.17.23 provenance photo. This supersedes the earlier partial Bernoulli-associated 6♦️ interpretation.",
+      "provenance": [
+        "human annotation photo 2026-08-04 15.17.23"
+      ],
+      "orientation": "reverse in 2026-08-04 15.17.23 provenance photo"
     }
   ]
 }
