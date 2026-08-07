@@ -63,5 +63,44 @@
       "card_deal_index": 5,
       "project_card_id": "🔱6♦️"
     }
+  ],
+  "managed_agents": [
+    {
+      "card_id": "🔱A♥️",
+      "name": "ARCTURUS",
+      "relation": "manages",
+      "class": "AO_PFM-blue-team-direct-report",
+      "path": "agents-of/meridian-ottobot/_/manages/🔱A♥️/",
+      "scope": [
+        "staging-pfm.victorb.net",
+        "staging-pfm.victorb.net/dashborg",
+        "PFM DashBOrg staging/history stewardship",
+        "pdxpinball public-facing preparation only when routed by train/work item"
+      ],
+      "authority": "KPFM red-team integration manager over AO_PFM blue-team station agent",
+      "provenance": [
+        "human correction 2026-08-07: AO_PFM class despite Ace rank",
+        "human naming 2026-08-07: Ace chose ARCTURUS"
+      ],
+      "notes": "Treat as a direct report for KPFM/AO_PFM layering. Domain authority can still be high for staging and history stewardship; Ace rank does not make this a peer relationship by provenance."
+    },
+    {
+      "card_id": "🔱4♥️",
+      "name": "TESSERA",
+      "relation": "manages",
+      "class": "AO_PFM-blue-team-direct-report",
+      "path": "agents-of/meridian-ottobot/_/manages/🔱4♥️/",
+      "scope": [
+        "AO_PFM blue-team train work",
+        "PFM DashBOrg/staging support when routed",
+        "shift-change continuity semantics"
+      ],
+      "authority": "KPFM red-team integration manager over AO_PFM blue-team station agent",
+      "provenance": [
+        "human correction 2026-08-07: four of hearts is a direct report",
+        "human naming 2026-08-07: four of hearts chose TESSERA"
+      ],
+      "notes": "TESSERA sees continuity as train conductor shift changes rather than a coherent agent across compactions; management expectations should preserve that model."
+    }
   ]
 }

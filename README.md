@@ -21,5 +21,10 @@ agents.json  agent/thread spawn order OF this identity
 decks.json   cards this identity acts AS, carries, or wears
 ```
 
+`agents.json` may also include `managed_agents`. Those records use
+`agents-of/meridian-ottobot/_/manages/<card-id>/` semantics: scoped governance
+or routing authority over another agent, without claiming that the managed agent
+was spawned by or card-owned by MERIDIAN-OTTOBOT.
+
 The data is metadata-only. Source photos are referenced by provenance labels and
 local source paths, not committed as image assets here.
