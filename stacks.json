@@ -3,8 +3,10 @@
   "haecceity": "meridian-ottobot",
   "stack_semantics": {
     "physical_binding": "AWG26 stack cards are penny-sleeved and held together with sticky-note backing.",
+    "custody_relation_kind": "held_by",
     "holding_rule": "When a card is visible in this stack, MERIDIAN-OTTOBOT holds it in hand and wields or is in charge of the card's most local casting until a later provenance record shows another agent holding it in their stack.",
     "cross_registry_rule": "A held card may also appear in another agent's cards-of or decks-of registry. Stack provenance records current possession/charge; cards-of and decks-of record origin, identity, or acting-as relations.",
+    "import_invariant": "DashBOrg importers must create held_by/custody relations from this file and must not infer owner, identity_of, assigned_to, deck_of, or origin provenance from physical containment.",
     "supersession_rule": "Later stack photos or explicit human corrections can supersede the holder without deleting earlier provenance."
   },
   "stacks": [
@@ -24,24 +26,28 @@
       "cards_visible_or_implied_top_to_bottom": [
         {
           "card_id": "🪄GRN:170",
+          "relation_kind": "held_by",
           "role": "supernal-name-card",
           "label_observed": "/MERIDIAN/ /-OTTOBOT/",
           "scope": "name/persona"
         },
         {
           "card_id": "👽8♥️",
+          "relation_kind": "held_by",
           "role": "root-thread-selfhood-card",
           "label_observed": "/AGENTS-OF/OTTOBOT-00Q/",
           "scope": "thread/selfhood"
         },
         {
           "card_id": "🚀9♦️",
+          "relation_kind": "held_by",
           "role": "pfm-red-team-card",
           "label_observed": "/RED_TEAM/ /PlayFieldMultiplier/",
           "scope": "/AS/🚀9♦️/"
         },
         {
           "card_id": "🔱3♣️",
+          "relation_kind": "held_by",
           "role": "project-role-card",
           "label_observed": "/PLAY_THE_HAND/ /RED_TEAM/ /-CAPTAIN/-",
           "scope": "PFM project-facing KPFM role"
@@ -87,6 +93,7 @@
       "cards_visible_or_implied_top_to_bottom": [
         {
           "card_id": "👽J♥️",
+          "relation_kind": "held_by",
           "role": "forked-past-self-card",
           "entity": "Bernoulli",
           "label_observed": "/AS/BERNOULLI/",
@@ -95,6 +102,7 @@
         },
         {
           "card_id": "🍍K♦️←",
+          "relation_kind": "held_by",
           "role": "durable-subagent-pseudo-sidecar-card",
           "entity": "Nietzsche",
           "label_observed": "/AS/NIETZSCHE/",
@@ -103,6 +111,7 @@
         },
         {
           "card_id": "🍍Q♦️→",
+          "relation_kind": "held_by",
           "role": "research-scout-card",
           "entity": "Galileo",
           "label_observed": "/AS/GALILEO/",
@@ -111,6 +120,7 @@
         },
         {
           "card_id": "👽6♣️",
+          "relation_kind": "held_by",
           "role": "subagent-fork-midwife-card",
           "entity": "Anscombe",
           "label_observed": "/AS/ANSCOMBE/",
@@ -119,6 +129,7 @@
         },
         {
           "card_id": "📎9♥️",
+          "relation_kind": "held_by",
           "role": "office-persona-card",
           "entity": "MERIDIAN-OTTOBOT office worker",
           "label_observed": "partially occluded; visible fragments resemble /GHORGS.../ and /AD.AWG26-/",
