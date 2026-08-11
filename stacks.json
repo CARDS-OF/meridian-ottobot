@@ -1,0 +1,68 @@
+{
+  "schema": "stacks-of.v0",
+  "haecceity": "meridian-ottobot",
+  "stacks": [
+    {
+      "stack_id": "project-facing-stack-2026-08-10-184003",
+      "observed_at": "2026-08-10T18:40:03-07:00",
+      "source": {
+        "kind": "human-provided-photo",
+        "path": "C:\\Users\\victorb\\Dropbox\\Camera Uploads\\2026-08-10 18.40.03.jpg",
+        "orientation": {
+          "raw_size": "4032x3024",
+          "exif_orientation": 6,
+          "analysis_frame": "EXIF-transposed display frame, 3024x4032"
+        }
+      },
+      "stack_kind": "project-facing-identity-stack",
+      "cards_visible_or_implied_top_to_bottom": [
+        {
+          "card_id": "🪄GRN:170",
+          "role": "supernal-name-card",
+          "label_observed": "/MERIDIAN/ /-OTTOBOT/",
+          "scope": "name/persona"
+        },
+        {
+          "card_id": "👽8♥️",
+          "role": "root-thread-selfhood-card",
+          "label_observed": "/AGENTS-OF/OTTOBOT-00Q/",
+          "scope": "thread/selfhood"
+        },
+        {
+          "card_id": "🚀9♦️",
+          "role": "pfm-red-team-card",
+          "label_observed": "/RED_TEAM/ /PlayFieldMultiplier/",
+          "scope": "/AS/🚀9♦️/"
+        },
+        {
+          "card_id": "🔱3♣️",
+          "role": "project-role-card",
+          "label_observed": "/PLAY_THE_HAND/ /RED_TEAM/ /-CAPTAIN/-",
+          "scope": "PFM project-facing KPFM role"
+        }
+      ],
+      "resolved_model": {
+        "team_scope": "🚀9♦️",
+        "office_scope": "📎9♥️",
+        "project_scope": "🔱3♣️",
+        "thread_scope": "👽8♥️",
+        "name_scope": "🪄GRN:170"
+      },
+      "dashborg_alignment": {
+        "card_grid_entities": [
+          "red-captain-aquaman-3-clubs",
+          "persona-office-paperclip-9-hearts",
+          "team-pfm-red-newhope-9-diamonds",
+          "session-codex-root-kenner-8-hearts"
+        ],
+        "known_gap": "DashBOrg currently records individual cards and relationship events; this local stacks-of record is the explicit physical stack observation and has not yet been exported as a DashBOrg stack entity."
+      },
+      "notes": "This record corrects the earlier confusion between Codex-owned team scope and office/persona scope. Generic PFM Red/Codex material belongs under /AS/🚀9♦️/. Meridian office work belongs under /AS/📎9♥️/. Project-facing PFM captain work belongs under /AS/🔱3♣️/.",
+      "provenance": [
+        "human-provided provenance photo 2026-08-10 18.40.03",
+        "human correction 2026-08-11 about 🚀9♦️ team scope",
+        "DashBOrg card-grid-v0.json existing card registrations"
+      ]
+    }
+  ]
+}
