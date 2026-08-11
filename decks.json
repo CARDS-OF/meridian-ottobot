@@ -96,6 +96,31 @@
         "human confirmation 2026-08-04",
         "human annotation photo 2026-08-04 15.17.23"
       ]
+    },
+    {
+      "deck_index": 6,
+      "card_id": "🚀9♦️",
+      "role": "pfm-red-team-card",
+      "relation": "captains",
+      "status": "dashborg-confirmed-team-scope",
+      "deck": "A New Hope scenes",
+      "metadata": {
+        "deck_emoji": "🚀",
+        "rank": "9",
+        "suit": "♦️",
+        "team": "PFM Codex red team",
+        "path_scope": "/AS/🚀9♦️/",
+        "annotation": "/RED_TEAM/ /PlayFieldMultiplier/",
+        "dashborg_entity_id": "team-pfm-red-newhope-9-diamonds",
+        "dashborg_container_kind": "Team-Of",
+        "dashborg_correction_event": "card-corrected-pfm-red-team-9-diamonds"
+      },
+      "notes": "Team-level Codex/Red scope for PFM. Use this path when speaking only to, as, or about Codex agents on the PFM red team. Do not collapse this team card into the Meridian office card 📎9♥️ or the project role card 🔱3♣️.",
+      "provenance": [
+        "DashBOrg card-grid-v0.json records 🚀9♦️ as PFM Codex red team card",
+        "human correction 2026-08-11: Codex-owned is a 🚀 team designation scoped /AS/🚀9♦️/",
+        "project-facing stack photo 2026-08-10 18.40.03"
+      ]
     }
   ]
 }
