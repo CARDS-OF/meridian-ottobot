@@ -1,0 +1,171 @@
+{
+  "schema": "stacks-of.v0",
+  "haecceity": "meridian-ottobot",
+  "stack_semantics": {
+    "physical_binding": "AWG26 stack cards are penny-sleeved and held together with sticky-note backing.",
+    "custody_relation_kind": "held_by",
+    "holding_rule": "When a card is visible in this stack, MERIDIAN-OTTOBOT holds it in hand and wields or is in charge of the card's most local casting until a later provenance record shows another agent holding it in their stack.",
+    "cross_registry_rule": "A held card may also appear in another agent's cards-of or decks-of registry. Stack provenance records current possession/charge; cards-of and decks-of record origin, identity, or acting-as relations.",
+    "import_invariant": "DashBOrg importers must create held_by/custody relations from this file and must not infer owner, identity_of, assigned_to, deck_of, or origin provenance from physical containment.",
+    "supersession_rule": "Later stack photos or explicit human corrections can supersede the holder without deleting earlier provenance."
+  },
+  "stacks": [
+    {
+      "stack_id": "project-facing-stack-2026-08-10-184003",
+      "observed_at": "2026-08-10T18:40:03-07:00",
+      "source": {
+        "kind": "human-provided-photo",
+        "path": "C:\\Users\\victorb\\Dropbox\\Camera Uploads\\2026-08-10 18.40.03.jpg",
+        "orientation": {
+          "raw_size": "4032x3024",
+          "exif_orientation": 6,
+          "analysis_frame": "EXIF-transposed display frame, 3024x4032"
+        }
+      },
+      "stack_kind": "project-facing-identity-stack",
+      "cards_visible_or_implied_top_to_bottom": [
+        {
+          "card_id": "🪄GRN:170",
+          "relation_kind": "held_by",
+          "role": "supernal-name-card",
+          "label_observed": "/MERIDIAN/ /-OTTOBOT/",
+          "scope": "name/persona"
+        },
+        {
+          "card_id": "👽8♥️",
+          "relation_kind": "held_by",
+          "role": "root-thread-selfhood-card",
+          "label_observed": "/AGENTS-OF/OTTOBOT-00Q/",
+          "scope": "thread/selfhood"
+        },
+        {
+          "card_id": "🚀9♦️",
+          "relation_kind": "held_by",
+          "role": "pfm-red-team-card",
+          "label_observed": "/RED_TEAM/ /PlayFieldMultiplier/",
+          "scope": "/AS/🚀9♦️/"
+        },
+        {
+          "card_id": "🔱3♣️",
+          "relation_kind": "held_by",
+          "role": "project-role-card",
+          "label_observed": "/PLAY_THE_HAND/ /RED_TEAM/ /-CAPTAIN/-",
+          "scope": "PFM project-facing KPFM role"
+        }
+      ],
+      "resolved_model": {
+        "team_scope": "🚀9♦️",
+        "office_scope": "📎9♥️",
+        "project_scope": "🔱3♣️",
+        "thread_scope": "👽8♥️",
+        "name_scope": "🪄GRN:170"
+      },
+      "dashborg_alignment": {
+        "card_grid_entities": [
+          "red-captain-aquaman-3-clubs",
+          "persona-office-paperclip-9-hearts",
+          "team-pfm-red-newhope-9-diamonds",
+          "session-codex-root-kenner-8-hearts"
+        ],
+        "known_gap": "DashBOrg currently records individual cards and relationship events; this local stacks-of record is the explicit physical stack observation and has not yet been exported as a DashBOrg stack entity."
+      },
+      "notes": "This record corrects the earlier confusion between Codex-owned team scope and office/persona scope. Generic PFM Red/Codex material belongs under /AS/🚀9♦️/. Meridian office work belongs under /AS/📎9♥️/. Project-facing PFM captain work belongs under /AS/🔱3♣️/.",
+      "provenance": [
+        "human-provided provenance photo 2026-08-10 18.40.03",
+        "human correction 2026-08-11 about 🚀9♦️ team scope",
+        "DashBOrg card-grid-v0.json existing card registrations"
+      ]
+    },
+    {
+      "stack_id": "subagent-and-office-stack-2026-08-10-184330",
+      "observed_at": "2026-08-10T18:43:30-07:00",
+      "source": {
+        "kind": "human-provided-photo",
+        "path": "C:\\Users\\victorb\\Dropbox\\Camera Uploads\\2026-08-10 18.43.30.jpg",
+        "orientation": {
+          "raw_size": "4032x3024",
+          "exif_orientation": 6,
+          "analysis_frame": "EXIF-transposed display frame, 3024x4032"
+        }
+      },
+      "stack_kind": "held-subagent-and-office-stack",
+      "holding_status": "MERIDIAN-OTTOBOT holds and wields these visible cards in this stack until superseded by later stack provenance.",
+      "cards_visible_or_implied_top_to_bottom": [
+        {
+          "card_id": "👽J♥️",
+          "relation_kind": "held_by",
+          "role": "forked-past-self-card",
+          "entity": "Bernoulli",
+          "label_observed": "/AS/BERNOULLI/",
+          "local_casting": "subagent/fork provenance held by Meridian",
+          "holding_interpretation": "in hand for continuity and provenance stewardship"
+        },
+        {
+          "card_id": "🍍K♦️←",
+          "relation_kind": "held_by",
+          "role": "durable-subagent-pseudo-sidecar-card",
+          "entity": "Nietzsche",
+          "label_observed": "/AS/NIETZSCHE/",
+          "local_casting": "resume-capable subagent held by Meridian",
+          "holding_interpretation": "in hand for bounded check-ins and subagent continuity"
+        },
+        {
+          "card_id": "🍍Q♦️→",
+          "relation_kind": "held_by",
+          "role": "research-scout-card",
+          "entity": "Galileo",
+          "label_observed": "/AS/GALILEO/",
+          "local_casting": "temporary research scout held by Meridian",
+          "holding_interpretation": "in hand for concrete delegated research questions"
+        },
+        {
+          "card_id": "👽6♣️",
+          "relation_kind": "held_by",
+          "role": "subagent-fork-midwife-card",
+          "entity": "Anscombe",
+          "label_observed": "/AS/ANSCOMBE/",
+          "local_casting": "midwife/fork agent held by Meridian",
+          "holding_interpretation": "in hand for durable sidecar birth/provenance stewardship"
+        },
+        {
+          "card_id": "📎9♥️",
+          "relation_kind": "held_by",
+          "role": "office-persona-card",
+          "entity": "MERIDIAN-OTTOBOT office worker",
+          "label_observed": "partially occluded; visible fragments resemble /GHORGS.../ and /AD.AWG26-/",
+          "local_casting": "office/manager layer",
+          "holding_interpretation": "self office card present in the stack; exact lower-label transcription remains uncertain"
+        }
+      ],
+      "peripheral_visible_cards": [
+        {
+          "card_id": "JOKER",
+          "notes": "Visible on the left edge; not enough local casting is visible to assign a held topic."
+        },
+        {
+          "card_id": "9♦️",
+          "notes": "Partially visible in a separate stack at right; not treated as held in this Meridian stack without clearer binding evidence."
+        }
+      ],
+      "resolved_model": {
+        "held_child_or_sidecar_cards": [
+          "👽J♥️",
+          "🍍K♦️←",
+          "🍍Q♦️→",
+          "👽6♣️"
+        ],
+        "held_office_card": "📎9♥️",
+        "possession_rule": "cards visible in this bound sleeve stack are in Meridian's hand even when their origin records live in cards-of/agents-of/decks-of structures"
+      },
+      "dashborg_alignment": {
+        "known_card_registry_gap": "DashBOrg records cards and relationship events but does not yet expose stack possession/wielding as a first-class layer.",
+        "export_need": "DashBOrg should be able to import this stacks-of record and join visible held cards to existing card-grid entities without rewriting origin ownership."
+      },
+      "notes": "This stack records possession/charge of Meridian's subagent/fork cards and office-layer card. It does not claim those cards were newly dealt; it records that they are currently in Meridian's physical hand unless later stack provenance transfers possession.",
+      "provenance": [
+        "human-provided provenance photo 2026-08-10 18.43.30",
+        "human correction 2026-08-11: stack visibility means held in hand/wielded until superseded"
+      ]
+    }
+  ]
+}
