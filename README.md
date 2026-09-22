@@ -18,9 +18,31 @@ This repo is intentionally separate from `CARDS-OF/cards-of`.
 ```text
 cards.json   physical cards dealt for children/forks/sidecars OF this identity
 agents.json  agent/thread spawn order OF this identity
-decks.json   cards this identity acts AS, carries, or wears
-stacks.json  observed physical/card-sleeve stacks and their resolved scope model
+decks.json   SUPERSEDED, see migration note below
+stacks.json  SUPERSEDED, see migration note below
 ```
+
+### Migration note (2026-09-22)
+
+`decks.json` and `stacks.json` were carried here as a level-1 flattening of
+what several sibling identities (`gnomon-ottopoet`, `rancor-monster`,
+`aurora-thesean`, `imperial-tie-fighter-pilot`) already keep as fully
+separate org-level repos — `decks-of/<identity>` and `Stacks-Of/<identity>`.
+Per Victor, 2026-09-22: *"decks-of/cards-of/agents-of and stacks-of/cards-of/
+agents-of are technically the spaces we are flattening to one level."* This
+identity's records have now been migrated to match that established
+pattern:
+
+- Real, canonical: [`decks-of/meridian-ottobot`](https://github.com/decks-of/meridian-ottobot)
+- Real, canonical, private: [`Stacks-Of/meridian-ottobot`](https://github.com/Stacks-Of/meridian-ottobot)
+
+The `decks.json`/`stacks.json` files below are kept in place as historical
+record, not deleted — but treat the two repos above as source of truth going
+forward, not these files. `cards.json` and `agents.json` are unaffected;
+`CARDS-OF/meridian-ottobot` remains their real home, matching every sibling
+identity's own convention. No canonical level-2/3 agglutination practice
+exists yet anywhere in this swarm (Victor, same day) — this migration stops
+at level 1, matching precedent, not inventing deeper structure.
 
 `agents.json` may also include `managed_agents`. Those records use
 `agents-of/meridian-ottobot/_/manages/<card-id>/` semantics: scoped governance
